@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>yt kyento</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="yt-page" id="top">
+    <header class="yt-header">
+        <nav class="yt-topbar">
+            <a class="yt-brand" href="index.html">YT kyento</a>
+            <a class="yt-back" href="index.html">Ga terug naar de website</a>
+        </nav>
+
+        <section class="yt-channel">
+            <div class="yt-banner">
+                <img src="bannerkyento.png" alt="Kyento banner">
+            </div>
+            <div class="yt-channel-meta">
+                <img class="yt-avatar" src="kyento.jpg" alt="Kyento avatar">
+                <div>
+                    <p class="yt-name">Kyento</p>
+                    <p class="yt-sub">video's, edits en wielrennen</p>
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <main class="yt-main">
+        <section class="yt-shorts-section">
+            <div class="yt-section-head">
+                <p class="yt-section-label">Shorts</p>
+            </div>
+            <article class="yt-video-card yt-short-card" data-release="available">
+                <div class="yt-thumb yt-short-thumb">
+                    <video controls poster="KoersBellegem.png">
+                        <source src="videoBellegem.mp4" type="video/mp4">
+                        Je browser ondersteunt deze video niet.
+                    </video>
+                </div>
+                <h2>Koers BELLEGEM</h2>
+                <p>SHORT Koers BELLEGEM.</p>
+            </article>
+        </section>
+
+        <section class="yt-grid">
+            <article class="yt-video-card" data-release="available">
+                <div class="yt-thumb">
+                    <video controls poster="FinishOoigem.png">
+                        <source src="videoOoigem.mp4" type="video/mp4">
+                        Je browser ondersteunt deze video niet.
+                    </video>
+                </div>
+                <h2>Finish OOIGEM </h2>
+                <p>Finish OOIGEM.</p>
+            </article>
+
+            <article class="yt-video-card" data-release="soon">
+                <div class="yt-thumb yt-placeholder">
+                    <img src="kyento.jpg" alt="Volgende video komt eraan">
+                </div>
+                <h2>PK RONSE tijdrit</h2>
+                <p>PK RONSE tijdrit.</p>
+            </article>
+
+            <article class="yt-video-card" data-release="soon">
+                <div class="yt-thumb yt-placeholder">
+                    <img src="kyento.jpg" alt="Binnenkort een nieuwe video">
+                </div>
+                <h2>PK RONSE wegrit</h2>
+                <p>PK RONSE wegrit.</p>
+            </article>
+
+            <article class="yt-video-card" data-release="available">
+                <div class="yt-thumb">
+                    <video controls poster="videobril.png">
+                        <source src="videobril.mp4" type="video/mp4">
+                        Je browser ondersteunt deze video niet.
+                    </video>
+                </div>
+                <h2>oude bril nieuwe bril</h2>
+                <p>oude bril nieuwe bril.</p>
+            </article>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
